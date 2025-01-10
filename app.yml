@@ -54,7 +54,7 @@ default_events:
 default_permissions:
   # Repository creation, deletion, settings, teams, and collaborators.
   # https://developer.github.com/v3/apps/permissions/#permission-on-administration
-  # administration: read
+  administration: write
 
   # Checks on code.
   # https://developer.github.com/v3/apps/permissions/#permission-on-checks
@@ -90,8 +90,7 @@ default_permissions:
 
   # Manage repository projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-projects
-  # repository_projects: read
-
+  repository_projects: write
   # Retrieve security vulnerability alerts.
   # https://developer.github.com/v4/object/repositoryvulnerabilityalert/
   # vulnerability_alerts: read
